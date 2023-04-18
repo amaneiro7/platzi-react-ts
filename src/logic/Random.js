@@ -1,0 +1,1 @@
+export const Random = () => Math.floor(Math.random() * 123) + 1
