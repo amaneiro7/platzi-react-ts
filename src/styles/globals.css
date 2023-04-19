@@ -24,4 +24,10 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  }
+  
+.sectionfoto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 350px));
+
 }
