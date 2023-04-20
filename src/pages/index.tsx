@@ -33,7 +33,7 @@ export default function Home() {
               src={url}              
               width={320}
               height='auto'
-              title='Random Fox'
+              title='Random Fox'              
               className='rounded-lg bg-gray-300 w-80 h-52 object-cover'
               onClick={() => console.log('hey')}
               onLazyLoad={img => console.log(`Image #${index +1} cargada.Nodo:`, img)}

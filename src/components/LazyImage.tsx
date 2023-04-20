@@ -3,7 +3,7 @@ import type { ImgHTMLAttributes } from "react";
 
 type LazyImagesProps = {
   src: string
-  onLazyLoad?: (img: HTMLImageElement) => void
+  onLazyLoad?: (img: HTMLImageElement) => void  
 }
 type Props = ImgHTMLAttributes<HTMLImageElement> & LazyImagesProps
 
@@ -55,7 +55,7 @@ export const LazyImage = ({
         }
       }, [src, onLazyLoad, isLazyLoaded])
 
-    return <img ref={node} src={currentSrc} {...imgProps} />
+    return <img ref={node} src={currentSrc} alt="Random Fox" {...imgProps} />
 }
 
 
